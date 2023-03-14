@@ -1,0 +1,7 @@
+// nesting
+.container{
+    p {
+        @include text-style(orange, 24px, Arial)
+    }
+
+}
